@@ -249,8 +249,10 @@
     },
     {
       "action": "allow",
-      "process": "any",
-      "remote-domains": "spotify.com"
+      "process": "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-domains": "spotify.com",
+      "ports" : "443",
+      "protocol": "tcp"
     }
   ]
 }
