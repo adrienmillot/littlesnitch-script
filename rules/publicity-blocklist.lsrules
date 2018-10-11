@@ -1,0 +1,256 @@
+{
+  "description" : "This rule group deny all known publicity site",
+  "name" : "Publicity blocklist",
+  "rules" : [
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ad.atdmt.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adnxs.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adnxs.comadplexmedia.adk2x.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ads.pubmatic.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adserver.adtechus.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ads-west-colo.adsymptotic.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "anycast.pixel.adsafeprotected.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-fa.scdn.co #donotblockwhileusingchromecast"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-gc.scdn.co"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "b.scorecardresearch.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "beta.spotify.map.fastly.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bounceexchange.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bs.serving-sys.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "content.bitsontherun.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "core.insightexpressai.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cs126.wpc.edgecastcdn.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cs126.wpc.teliasoneracdn.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cs283.wpc.teliasoneracdn.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "d2gi7ultltnc2u.cloudfront.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "d361oi6ppvq2ym.cloudfront.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "d3rt1990lpmkn.cloudfront.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ds.serving-sys.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dt.adsafeprotected.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "fw.adsafeprotected.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "gads.pubmatic.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "geo3.ggpht.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "gtssl2-ocsp.geotrust.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-fa.scdn.co"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "idsync-ext.rlcdn.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "js.moatads.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "media-match.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mp3ad.scdn.co"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "na.gmtdmp.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "omaze.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "prod.spotify.map.fastlylb.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "prod.spotify-heads.map.fastlylb.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "redirector.gvt1.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "s0.2mdn.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "secure.insightexpressai.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "seen-on-screen.thewhizmarketing.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "server-54-230-216-203.mrs50.r.cloudfront.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "showads33000.pubmatic.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sync.adaptv.advertising.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "techattend.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "u.scdn.co"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "upgrade.scdn.co"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "upgrade.scdn.co#optional"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "v.jwpcdn.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "video-fa.scdn.co"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "www.omaze.com"
+    }
+  ]
+}
