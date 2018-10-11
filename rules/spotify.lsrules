@@ -1,0 +1,256 @@
+{
+  "description" : "This rule group allow all known spotify site",
+  "name" : "Spotify services",
+  "rules" : [
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "open.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "partner-service.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "partner-service-testing.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "payment-callback.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pci.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pixel.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "links.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "log.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "log2.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-fa.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-fab.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-fac.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-ak.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-akp.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-cf.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "heads-ec.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "gew1.ap.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "desktop.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "crashdump.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-gc.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-sp-lon.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-sp-sto.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-fa.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-fab.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-fac-spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "assets.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio2.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-ak.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-akp.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-cf.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "audio-ec.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ads.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ads-akp.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adlab.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "crashdump.ciqe-gslb.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "lon6-accesspoint-a33.lon6.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sto3.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sto3-accesspoint-a88.sto3.spotify.net"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "upgrade.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "upgrade.spotify.com#optional"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "video-fa-b.cdn.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "weblb-wg.gslb.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "www.audio2.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "video-fa.cdn.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adeventtracker.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ads-fa.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ads-sp-lon.cdn.spotify.com"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "spotify-desktop.com"
+    },
+    {
+      "action": "allow",
+      "process": "any",
+      "remote-domains": "spotify.com"
+    }
+  ]
+}
