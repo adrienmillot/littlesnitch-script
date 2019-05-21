@@ -61,6 +61,6 @@
       "process": "\/Applications\/StarCraft\\ II\/StarCraft\\ II.app\/Contents\/MacOS\/StarCraft\\ II",
       "port": "6113",
       "protocol": "UDP"
-    },
+    }
   ]
 }
