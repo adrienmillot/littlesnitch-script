@@ -5,7 +5,7 @@
     {
       "action": "allow",
       "process": "\/Applications\/StarCraft\\ II\/StarCraft\\ II.app\/Contents\/MacOS\/StarCraft\\ II",
-      "port": "80",
+      "ports": "80",
       "protocol": "TCP"
     }
   ]
