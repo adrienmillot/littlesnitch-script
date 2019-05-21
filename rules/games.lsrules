@@ -4,7 +4,7 @@
   "rules" : [
     {
       "action": "allow",
-      "process": "\/Applications\/StarCraft\ II\/StarCraft\ II.app\/Contents\/MacOS\/StarCraft\ II",
+      "process": "\/Applications\/StarCraft\\ II\/StarCraft\\ II.app\/Contents\/MacOS\/StarCraft\\ II",
       "port": "80",
       "protocol": "TCP"
     }
