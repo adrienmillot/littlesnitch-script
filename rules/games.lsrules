@@ -7,6 +7,60 @@
       "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
       "ports": "80",
       "protocol": "TCP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "119",
+      "protocol": "TCP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "1120",
+      "protocol": "TCP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "3724",
+      "protocol": "TCP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "6113",
+      "protocol": "TCP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "80",
+      "protocol": "UDP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "119",
+      "protocol": "UDP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "1120",
+      "protocol": "UDP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "3724",
+      "protocol": "UDP"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
+      "ports": "6113",
+      "protocol": "UDP"
     }
   ]
 }
