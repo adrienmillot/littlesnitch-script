@@ -18,14 +18,14 @@
     },
     {
       "action": "allow",
-      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/phpstorm",
+      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/phpstorm via ssh",
       "remote-domains": "gitlab.mairie-lille.fr",
       "ports" : "2222",
       "protocol": "tcp"
     },
     {
       "action": "allow",
-      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/phpstorm",
+      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/phpstorm via java.com.intellij.database.remote.RemoteJdbcServer",
       "remote-domains": "gitlab.mairie-lille.fr",
       "ports" : "1541",
       "protocol": "tcp"
