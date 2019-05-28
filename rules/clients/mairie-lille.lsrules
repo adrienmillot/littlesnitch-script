@@ -4,28 +4,28 @@
   "rules" : [
     {
       "action": "allow",
-      "process": "\/Applications\/Firefox\/Firefox.app\/Contents\/MacOS\/Firefox",
+      "process": "\/Applications\/Firefox.app\/Contents\/MacOS\/Firefox",
       "ports": "80",
       "protocol": "TCP",
       "remote-domains": "mairie-lille.fr"
     },
     {
       "action": "allow",
-      "process": "\/Applications\/Firefox\/Firefox.app\/Contents\/MacOS\/Firefox",
+      "process": "\/Applications\/Firefox.app\/Contents\/MacOS\/Firefox",
       "ports": "8080",
       "protocol": "TCP",
       "remote-domains": "mairie-lille.fr"
     },
     {
       "action": "allow",
-      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/PhpStorm via ssh",
+      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/PhpStorm",
       "remote-domains": "gitlab.mairie-lille.fr",
       "ports" : "2222",
       "protocol": "tcp"
     },
     {
       "action": "allow",
-      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/PhpStorm via java.com.intellij.database.remote.RemoteJdbcServer",
+      "process": "\/Applications\/PhpStorm.app\/Contents\/MacOS\/PhpStorm",
       "remote-domains": "gitlab.mairie-lille.fr",
       "ports" : "1541",
       "protocol": "tcp"
