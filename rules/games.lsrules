@@ -4,6 +4,34 @@
   "rules" : [
     {
       "action": "allow",
+      "process": "\/Applications\/Battle.net.app\/Contents\/MacOS\/Battle.net",
+      "ports": "53",
+      "protocol": "UDP",
+      "remote-domains": "104.236.105.2"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/Battle.net.app\/Contents\/MacOS\/Battle.net",
+      "ports": "443",
+      "protocol": "TCP",
+      "remote-domains": "battle.net"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/Battle.net.app\/Contents\/MacOS\/Battle.net",
+      "ports": "443",
+      "protocol": "TCP",
+      "remote-domains": "blizzard.com"
+    },
+    {
+      "action": "allow",
+      "process": "\/Applications\/Battle.net.app\/Contents\/MacOS\/Battle.net",
+      "ports": "119",
+      "protocol": "TCP",
+      "remote-domains": "battle.net"
+    },
+    {
+      "action": "allow",
       "process": "\/Applications\/StarCraft II\/StarCraft II.app\/Contents\/MacOS\/StarCraft II",
       "ports": "80",
       "protocol": "TCP"
